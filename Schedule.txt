@@ -1,0 +1,15 @@
+Shifts Available
+M	12am-5pm	5pm-8pm		5pm-9pm		7pm-11pm	8pm-12pm	8pm-3am
+T	12am-5pm	5pm-8pm		5pm-9pm		7pm-11pm	8pm-12pm	8pm-3am
+W	12am-5pm	5pm-8pm		5pm-9pm		7pm-11pm	8pm-12pm	8pm-3am
+TH	12am-5pm	5pm-8pm		5pm-9pm		7pm-11pm	8pm-12pm	8pm-3am
+F	12am-5pm	5pm-8pm		5pm-9pm		7pm-11pm	8pm-12pm	8pm-3am
+SA	12am-5pm	5pm-8pm		5pm-9pm		7pm-11pm	8pm-12pm	8pm-3am
+SU	12am-5pm	5pm-8pm		5pm-9pm		7pm-11pm	8pm-12pm	8pm-3am
+
+//For Employees Availability put the times they are available after the days of the week that time corresponds to
+Employee Name		Priority(doesn't work rn)	Doubles		Availabity			
+Jake 		 	2 				n		12am-3am M T W TH SA		
+Myles			1				n		12am-3am M T W F	
+Shaggy			3				n		12am-3am M T W TH SA
+     
