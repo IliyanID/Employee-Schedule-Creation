@@ -42,6 +42,7 @@ public static void main(String args[]){
 }
 
 }
+<<<<<<< HEAD
 
 class ServerThread extends Thread{  
 
@@ -106,3 +107,6 @@ class ServerThread extends Thread{
     }//end finally
     }
 }
+=======
+//
+>>>>>>> parent of 725ff9e... tt
