@@ -1,4 +1,5 @@
 
-public class ClientConnection {
+public class ClientConnection 
+{
 
 }
