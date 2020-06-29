@@ -26,7 +26,6 @@ public class Screate
 		if(debug)
 		{
 			System.out.print(totalEmployee);
-
 			
 			for(int i = 0; i < Schedule.size(); i++)
 			{
