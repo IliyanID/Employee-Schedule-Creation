@@ -104,7 +104,7 @@ class ServerThread extends Thread{
     catch(IOException ie){
         System.out.println("Socket Close Error");
     }
-    }//end finally
+    }
     }
 }
 
