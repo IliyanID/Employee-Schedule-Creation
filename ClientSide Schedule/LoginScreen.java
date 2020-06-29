@@ -1,4 +1,4 @@
-
-public class LoginScreen {
+public class LoginScreen 
+{
 
 }
