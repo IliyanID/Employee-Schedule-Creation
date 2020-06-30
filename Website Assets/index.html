@@ -20,14 +20,26 @@
         top: 10%;
     }
 
+    #textFormat{
+        text-align: right;
+        position: absolute;
+        top: 5%;
+        left: 60%;
+    }
+
     @media (max-width:629px) {
         img#dissapear_imag {
-        display: none;
+            display: none;
         }
 
     @media (max-width:629px) {
+        
         #centerText {
-        text-align: center;
+        position: fixed;
+        text-align: right;
+       
+  
+
         }
     }
 
@@ -41,11 +53,13 @@
     
     <body>
         
-        <div style="text-align: right;">
+        <div>
             <div id="centerText">
-                <h1>Employee Login</h1>
-                <p>User Login</p>
-                <p>User Password</p>
+                <div id="textFormat">
+                    <h1>Employee Login</h1>
+                    <p>User Login</p>
+                    <p>User Password</p>
+                </div>
             </div>
             <span style="float: left;"><img class="logo" id="dissapear_imag" src="logo.png"></span>
         </div>
