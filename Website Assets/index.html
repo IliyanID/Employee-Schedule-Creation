@@ -14,6 +14,23 @@
         height: 60%;      
     }
     
+    .logo{
+        width: 50%;
+        position: absolute;
+        top: 10%;
+    }
+
+    @media (max-width:629px) {
+        img#dissapear_imag {
+        display: none;
+        }
+
+    @media (max-width:629px) {
+        #centerText {
+        text-align: center;
+        }
+    }
+
 </style>
 
 <html>
@@ -23,9 +40,14 @@
     </head>
     
     <body>
-        <div>
-            <span style="float: left;">text<img src="logo.png" style="width:20%;">Text</span>
-            <span>Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text</span>
+        
+        <div style="text-align: right;">
+            <div id="centerText">
+                <h1>Employee Login</h1>
+                <p>User Login</p>
+                <p>User Password</p>
+            </div>
+            <span style="float: left;"><img class="logo" id="dissapear_imag" src="logo.png"></span>
         </div>
 
 
