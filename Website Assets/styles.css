@@ -1,0 +1,40 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+}    
+
+@media (max-width:400px) {
+    .dissapearImag img{
+        display: none;
+      
+        
+    }
+}
+
+@media (max-width:500) {     
+    #smallScreenText {
+        font-size:12px;
+        background:#0000FF;
+    }
+}
+
+@media (min-width:500px) {
+        
+    #smallScreenText {
+        text-align:right;
+        background:#FF0000
+    }
+}
+.container {
+       
+}
+
+.loginInfo {
+    
+}
+
+.loginLogo {
+        
+}
