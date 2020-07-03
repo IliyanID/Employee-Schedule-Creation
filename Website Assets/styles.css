@@ -30,18 +30,11 @@ h2{
     
 }
 .footer{
-     position: absolute;
+    position: absolute;
     bottom:0;
     width:100%;
-    background-color:black;
-    padding: 1%;
-}
-
-p {
-    color: #FFFFFFFF;
-    font-size:1.2vw;
-    font
-    
+    background-color:white;
+    padding: .1%;
 }
 
 h1{
