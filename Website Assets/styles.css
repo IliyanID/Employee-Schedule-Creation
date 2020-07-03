@@ -5,36 +5,47 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular';
 }    
 
-@media (max-width:400px) {
-    .dissapearImag img{
-        display: none;
-      
-        
+
+
+@media only screen and (max-width:600px) {
+    .dissapearImag{
+        display: none;        
     }
 }
 
-@media (max-width:500) {     
-    #smallScreenText {
-        font-size:12px;
-        background:#0000FF;
-    }
-}
-
-@media (min-width:500px) {
-        
-    #smallScreenText {
-        text-align:right;
-        background:#FF0000
-    }
-}
-.container {
+@media only screen and (max-width: 600px) {    
+    .smallScreen {       
+        background-color:#B2BDBC;   
+        text-align: center; 
+        font-size: 40px;
        
+       
+    } 
 }
 
-.loginInfo {
+.largeScreen {
+    background-color:#B2BDBC; 
+    text-align:right;
+    float:right;
+    margin: 50% 5% auto 5%;
+    font-size: 2vw;
+    border: 6px solid #B2BDBC;
+    padding:10px;
+}
+
+.container {
     
+   
+}
+body{
+     background-image: url(background.jpg);
+    background-size: 100% 100%;
 }
 
-.loginLogo {
-        
+.appearImag {
+    width:50%;
+    float:left;
+    margin-left: 5%;
+    margin-top: 50%;
+    
 }
