@@ -1,51 +1,67 @@
-* {
+*{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular';
-}    
-
-
-
-@media only screen and (max-width:600px) {
-    .dissapearImag{
-        display: none;        
-    }
-}
-
-@media only screen and (max-width: 600px) {    
-    .smallScreen {       
-        background-color:#B2BDBC;   
-        text-align: center; 
-        font-size: 40px;
-       
-       
-    } 
-}
-
-.largeScreen {
-    background-color:#B2BDBC; 
-    text-align:right;
-    float:right;
-    margin: 50% 5% auto 5%;
-    font-size: 2vw;
-    border: 6px solid #B2BDBC;
-    padding:10px;
-}
-
-.container {
-    
-   
+    overflow-y: hidden; 
+    overflow-x: hidden;
+    font-family: monospace
 }
 body{
-     background-image: url(background.jpg);
-    background-size: 100% 100%;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position:relative;
 }
 
-.appearImag {
-    width:50%;
-    float:left;
-    margin-left: 5%;
-    margin-top: 50%;
+.container{
+    width: 50%;
+    height: 40%;
+    margin: 30% auto;
+    text-align: center;
+    border: 5px solid black;;
+    color:black;
+    padding:20
     
+}
+
+h1{
+    text-transform:uppercase;
+    font-size: 50px;
+}
+
+.container input[type="text"], input[type="password"]{
+    font-size:20px;
+    display: block;
+    background: black;
+    margin: 40 auto;
+    border: 6px solid #black;
+    padding: 12;
+    color:white;
+    border-radius: 24px;
+    outline: none;
+    transition-duration: .25s
+}
+
+.container input[type="text"]:focus, input[type="password"]:focus{
+    border-color:#EA8021;
+    border-width: 3px;
+    width: 400;
+}
+
+.container input[type="submit"]{
+    padding:10; 
+    width:250;
+    background:black;
+    color:white;
+    font-size: 20px;
+    outline: none;
+    border-radius: 24px;  
+    transition-duration: .25s
+}
+
+.container input[type="submit"]:hover{
+    border-color:#EA8021;
+    border-width: 3px;
+    width: 400; 
 }
