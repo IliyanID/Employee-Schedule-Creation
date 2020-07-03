@@ -4,7 +4,8 @@
     box-sizing:border-box;
     overflow-y: auto; 
     overflow-x: hidden;
-    font-family: monospace
+    font-family: monospace;
+    height:
 }
 body{
     background-image: url(background.jpg);
@@ -34,7 +35,7 @@ h2{
     bottom:0;
     width:100%;
     background-color:white;
-    padding: .1%;
+    padding:10 auto;
 }
 
 h1{
