@@ -1,11 +1,13 @@
+
+
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    overflow-y: auto; 
+    overflow-y: hidden; 
     overflow-x: hidden;
     font-family: monospace;
-    height:
+
 }
 body{
     background-image: url(background.jpg);
@@ -15,74 +17,123 @@ body{
     position:relative;
 }
 
-h2{
-    font-size: 190%;
+
+.container{
+position:fixed;  
+overflow: visible;
+    
 }
 
 .container{
-    width: 50%;
-    
-    margin: 10% auto;
+    width:40vw;
     text-align: center;
-    border: 5px solid black;
+    border: 5px solid #004254;
     border-radius: 25px;
-    padding:5%;
+    padding:2vw;
     transition-duration: .25s;
+    overflow: visible;
+    overflow-y:visible;
     
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
 .footer{
     position: absolute;
     bottom:0;
     width:100%;
     background-color:white;
     padding:10 auto;
+    overflow-y: hidden;
+    font-size:.9vw;
 }
 
+
+
 h1{
-    text-transform:uppercase;
-    font-size: 5vw;
-    background-color:black;
-    color:white;
-    opacity:.8;
+    
+    font-size: 3.5vw;
+    background-color:white;
+    color:#007EA1;
+    border: 2px solid #007EA1;
     border-radius: 25px;
-   
+    font-weight: 1;
     width: 100%;
+    padding:.8%
 
     
 }
 
 .container input[type="text"], input[type="password"]{
-    font-size:2.5vw;
+    font-size:2.2vw;
     display: block;
-    background: black;
+    background: white;
     margin: 7% auto;
-    border: 6px solid #black;
+    border: 2px solid #007EA1;
     padding: 12;
-    color:white;
+    color:#004254;
     border-radius: 24px;
     outline: none;
     transition-duration: .25s;
+    position: relative;
+    opacity:.87
 }
 
 .container input[type="text"]:focus, input[type="password"]:focus{
-    border-color:#EA8021;
-    border-width: 3px;
+    border-color:#00B0E0;
+    border-width: 2px;
     width: 100%;
+    opacity:1;
+}
+
+.container input[type="text"]:hover, input[type="password"]:hover{
+     opacity:1;
 }
 
 .container input[type="submit"]{
-    padding:10; 
-    width:32vw;
-    background:black;
-    color:white;
-    font-size: 3vw;
+    padding:1; 
+    width:27vw;
+    background:#007594;
+    color: lightgray;
+    font-size: 3.2vw;
     outline: none;
     border-radius: 24px;  
+    transition-duration: .25s;
+    border-color: #007EA1;
+    border-width:1px;
+    opacity: .85;
+    font-weight: 400;
     transition-duration: .25s;
 }
 
 .container input[type="submit"]:hover{
-    border-color:#EA8021;
-    border-width: 3px;
+    border-width: 0px;
     width: 100%; 
+    background:#00B0E0;
+    color:white;
+    border-color: #007594;
+    opacity:1;
+    
+}
+
+.container p{
+    background-color: white;
+    border: 1px solid #007EA1;
+    border-radius:7px;
+    font-size: 1.4vw;
+    padding:.5%;
+    
+    position:absolute;
+    margin:12% 15%;
+    color:#007EA1;
+    
+    opacity: .87;
+}
+
+.container p:hover{
+opacity:1;
+}
+
 }
