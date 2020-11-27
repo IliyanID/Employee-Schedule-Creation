@@ -14,7 +14,7 @@ public class Screate
 	public static void main(String[] args) 
 	{
 		debug = true;
-		String file = "Schedule.txt";
+		String file = "C:\\Users\\Iliyan\\eclipse-Persional Projects\\ServerSide Schedule\\src\\Schedule.txt";
 		String finalSchedule = "";
 		getData(file);
 		createSchedule();
